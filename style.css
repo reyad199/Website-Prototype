@@ -89,6 +89,13 @@ margin-right: 250px;
   
 }
 
+.mobileMainInfo  {
+  color:white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+
 
 
 /*three main images*/
@@ -124,7 +131,7 @@ margin-right: 250px;
 .text {
   font-family: 'Nunito', sans-serif;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -223,7 +230,7 @@ margin-top: 60px;
 .textBox label{
   display: block;
   text-align: left;
-  color: white;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 15px;
   font-family: proxima-nova, sans-serif;
@@ -257,29 +264,6 @@ margin-top: 60px;
 
 }
 
-@media only screen and (max-width: 1200px) {
-  .Contact {
-    margin-top: 100px;
-  }
-}
-
-@media only screen and (max-width: 920px) {
-  .Contact {
-    margin-top: 140px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .Contact {
-    margin-top: 180px;
-  }
-}
-
-@media only screen and (max-width: 490px) {
-  .Contact {
-    margin-top: 220px;
-  }
-}
 
 /*VOLUNTEER*/
 
@@ -419,7 +403,7 @@ padding-right: 15px;
 
 .supportButton {
   margin-top:20px;
-  background-color: white; /* Green */
+  background-color: white; 
   border: none;
   color: #518471;
   padding: 15px 32px;
@@ -448,7 +432,15 @@ padding-right: 15px;
   margin-left: 10px;
   margin-right: 10px; 
   padding-top:30px;
-  
+  }
+
+  .mobileMainInfo  {
+  color:black;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+
 }
 
 
@@ -480,23 +472,32 @@ padding-right: 15px;
 
 /* MEDIA QUERIES DONATE VOLUNTEER ADOPT*/
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 500px) { /* side box */
 
   .sideBox {
-  /* background-color: red; */
+
   height: 60vh;
   width:74vw;
   margin-top: 350px;
   }
 
   .sideBox h1 {
+  margin-top: 70px;
   font-family: 'Nunito', sans-serif;
-  padding-top: 45px;
 
   }
-
 }
 
+@media only screen and (max-width: 500px){
+
+  .mobileMainInfo  { 
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+  
+}
+
+/* Card positioning*/
 @media only screen and (max-width: 500px) { 
   #card1 {
   margin-left: 40px;
@@ -531,20 +532,42 @@ padding-right: 15px;
 
 }
 
-@media only screen and (max-width: 500px) { 
 
-  .sideBox {
-  /* background-color: red; */
-  height: 60vh;
-  width:74vw;
-  margin-top: 350px;
+@media only screen and (max-width: 500px) { /* Contact Form Checkbox*/
+
+  .checkBox{
+   flex-direction: column;
   }
 
-  .sideBox h1 {
-  font-family: 'Nunito', sans-serif;
-  padding-top: 45px;
-
+}
+/* Contact Form positioning*/
+@media only screen and (max-width: 1200px) {
+  .Contact {
+    margin-top: 100px;
   }
+}
 
+@media only screen and (max-width: 920px) {
+  .Contact {
+    margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Contact {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .Contact {
+    margin-top: 220px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Contact {
+    margin-top: 300px;
+  }
 }
 
