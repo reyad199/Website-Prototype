@@ -89,6 +89,8 @@ margin-right: 250px;
   
 }
 
+
+
 /*three main images*/
 
 .pictureContainer {
@@ -434,3 +436,115 @@ padding-right: 15px;
   background-color:#DFF3E2;
   
 }
+
+
+/* MEDIA QUERIES home page*/
+
+@media only screen and (max-width: 390px) { 
+  .mainTitleInfo {
+
+  font-style: normal;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px; 
+  padding-top:30px;
+  
+}
+
+
+@media only screen and (max-width: 390px) { /* three main images*/
+.pictureContainer {
+  position: relative;
+  width: 100%;
+
+}
+
+
+@media only screen and (max-width: 390px) {
+.mainTitle {
+
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+@media only screen and (max-width: 390px) { /* three main images text*/
+.text {
+ 
+  font-size: 10px;
+
+}
+
+
+/* MEDIA QUERIES DONATE VOLUNTEER ADOPT*/
+
+@media only screen and (max-width: 414px) { 
+
+  .sideBox {
+  /* background-color: red; */
+  height: 60vh;
+  width:74vw;
+  margin-top: 350px;
+  }
+
+  .sideBox h1 {
+  font-family: 'Nunito', sans-serif;
+  padding-top: 45px;
+
+  }
+
+}
+
+@media only screen and (max-width: 414px) { 
+  #card1 {
+  margin-left: 40px;
+  margin-top: 620px;
+}
+
+#card2 {
+    margin-left:40px;
+    margin-top: 920px;
+    
+  }
+
+#card3 {
+    margin-left:40px;
+    margin-top: 1220px;
+  }
+
+#card4 {
+  margin-left: 40px;
+  margin-top: 1520px;
+}
+
+#card5 {
+    margin-left: 40px;
+  margin-top: 1820px;
+  }
+
+#card6 {
+    margin-left: 40px;
+  margin-top: 2120px;
+  }
+
+}
+
+@media only screen and (max-width: 414px) { 
+
+  .sideBox {
+  /* background-color: red; */
+  height: 60vh;
+  width:74vw;
+  margin-top: 350px;
+  }
+
+  .sideBox h1 {
+  font-family: 'Nunito', sans-serif;
+  padding-top: 45px;
+
+  }
+
+}
+
