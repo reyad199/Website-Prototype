@@ -440,7 +440,7 @@ padding-right: 15px;
 
 /* MEDIA QUERIES home page*/
 
-@media only screen and (max-width: 390px) { 
+@media only screen and (max-width: 500px) { 
   .mainTitleInfo {
 
   font-style: normal;
@@ -452,7 +452,7 @@ padding-right: 15px;
 }
 
 
-@media only screen and (max-width: 390px) { /* three main images*/
+@media only screen and (max-width: 500px) { /* three main images*/
 .pictureContainer {
   position: relative;
   width: 100%;
@@ -460,7 +460,7 @@ padding-right: 15px;
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 500px) {
 .mainTitle {
 
   text-align: center;
@@ -470,7 +470,7 @@ padding-right: 15px;
 
 }
 
-@media only screen and (max-width: 390px) { /* three main images text*/
+@media only screen and (max-width: 500px) { /* three main images text*/
 .text {
  
   font-size: 10px;
@@ -480,7 +480,7 @@ padding-right: 15px;
 
 /* MEDIA QUERIES DONATE VOLUNTEER ADOPT*/
 
-@media only screen and (max-width: 414px) { 
+@media only screen and (max-width: 500px) { 
 
   .sideBox {
   /* background-color: red; */
@@ -497,7 +497,7 @@ padding-right: 15px;
 
 }
 
-@media only screen and (max-width: 414px) { 
+@media only screen and (max-width: 500px) { 
   #card1 {
   margin-left: 40px;
   margin-top: 620px;
@@ -531,7 +531,7 @@ padding-right: 15px;
 
 }
 
-@media only screen and (max-width: 414px) { 
+@media only screen and (max-width: 500px) { 
 
   .sideBox {
   /* background-color: red; */
