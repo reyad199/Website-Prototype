@@ -90,7 +90,7 @@ margin-right: 250px;
 }
 
 .mobileMainInfo  {
-  color:white;
+  display: none;
   text-align: center;
   font-family: 'Nunito', sans-serif;
 }
@@ -435,6 +435,7 @@ padding-right: 15px;
   }
 
   .mobileMainInfo  {
+  display: block;
   color:black;
   text-align: center;
   font-family: 'Nunito', sans-serif;
