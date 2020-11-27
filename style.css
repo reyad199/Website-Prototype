@@ -435,7 +435,7 @@ padding-right: 15px;
   }
 
   .mobileMainInfo  {
-  display: block;
+    display: block;
   color:black;
   text-align: center;
   font-family: 'Nunito', sans-serif;
@@ -568,7 +568,7 @@ padding-right: 15px;
 
 @media only screen and (max-width: 800px) {
   .Contact {
-    margin-top: 300px;
+    margin-top: 400px;
   }
 }
 
